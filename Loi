@@ -74,6 +74,11 @@ _G.Version="Fruit Farm"loadstring(game:HttpGet("https://raw.githubusercontent.co
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
   })   AddButton(Tab1o, {
+     Name = "dex bear",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/Skidlamcho.txt"))()
+  end
+  })   AddButton(Tab1o, {
      Name = "aim and hitbox",
     Callback = function()
 	  loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios"))()
@@ -114,10 +119,14 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/ArbixHubV1/refs/heads/main/Source.lua"))()
   end
-  })
-AddButton(Tab2o, {
+  }) AddButton(Tab2o, {
      Name = "come",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Blue-lock/refs/heads/main/TOUKA.lua"))()
+  end
+  })  AddButton(Tab2o, {
+     Name = "auto giữ banh",
+    Callback = function()
+	  loadstring(game:HttpGet("https://pastebin.com/raw/0qPu8dEA"))()
   end
   })
