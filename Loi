@@ -125,8 +125,9 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Blue-lock/refs/heads/main/TOUKA.lua"))()
   end
   })  AddButton(Tab2o, {
-     Name = "auto giữ banh",
+     Name = "anymore (reo)",
     Callback = function()
-	  loadstring(game:HttpGet("https://pastebin.com/raw/0qPu8dEA"))()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/Maybie/BlueLock/refs/heads/main/BLR.lua',true))()
   end
   })
+
