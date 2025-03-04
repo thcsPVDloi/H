@@ -138,4 +138,9 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Arbix-OP/refs/heads/main/SigmaSkibidiTOUKA.lua"))()
   end
+  })   AddButton(Tab2o, {
+     Name = "auto gk",
+    Callback = function()
+	  loadstring(game:HttpGet("https://gist.githubusercontent.com/Yopapa7/6a8ea468a42314b66b75b22e82100624/raw/bafe015781cd58e94d353b9df84995f8dd481acc/gistfile1.txt",true))()
+  end
   })
