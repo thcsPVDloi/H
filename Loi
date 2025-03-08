@@ -65,9 +65,9 @@ _G.Version="Fruit Farm"loadstring(game:HttpGet("https://raw.githubusercontent.co
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
   end
   })   AddButton(Tab1o, {
-     Name = "rubu",
+     Name = "fly gui",
     Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RubuHubV3.txt"))()
+	loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
   end   
    })   AddButton(Tab1o, {
      Name = "rubu",
@@ -75,6 +75,11 @@ _G.Version="Fruit Farm"loadstring(game:HttpGet("https://raw.githubusercontent.co
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubHopBoss/refs/heads/main/SkidConCacBaM"))()
   end
    })      AddButton(Tab1o, {
+     Name = "flash back",
+    Callback = function()
+	loadstring(game:HttpGet("https://mscripts.vercel.app/scfiles/reverse-script.lua"))()
+  end
+            AddButton(Tab1o, {
      Name = "speedhub",
     Callback = function()
 	  --[[
