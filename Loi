@@ -67,7 +67,7 @@ _G.Version="Fruit Farm"loadstring(game:HttpGet("https://raw.githubusercontent.co
   })   AddButton(Tab1o, {
      Name = "fly gui",
     Callback = function()
-	loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fly-GUI-V3-9511"))()
   end   
    })   AddButton(Tab1o, {
      Name = "rubu",
@@ -79,15 +79,15 @@ _G.Version="Fruit Farm"loadstring(game:HttpGet("https://raw.githubusercontent.co
     Callback = function()
 	loadstring(game:HttpGet("https://mscripts.vercel.app/scfiles/reverse-script.lua"))()
   end
-            AddButton(Tab1o, {
+    })     AddButton(Tab1o, {
      Name = "speedhub",
     Callback = function()
 	  --[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
-  })   AddButton(Tab1o, {
+  })        AddButton(Tab1o, {
      Name = "dex bear",
     Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/Skidlamcho.txt"))()
